@@ -145,50 +145,52 @@ const person = [
     }
 ]
 
-// // 1) print person yang suka buah apple dan warna mata nya biru 
-// let arr=[]
-//     for (let i=0; i < person.length; i++){
-//         if (person[i].favoriteFruit === 'apple' && person[i].eyeColor === 'blue'){
-//             arr.push(person[i])
-//                 console.log(person[i].name);
-//         }
-// }
+let arr=[]
 
-// // 2) print berapa person yang age nya diatas 30 
-// let arr=[]
-//     for (let i=0; i < person.length; i++){
-//         if (person[i].age > 30){
-//             arr.push(person[i])
-//         }
-// }
+// // 1) print person yang suka buah apple dan warna mata nya biru
+console.log('------- Jawaban Nomor 1 -------'); 
+    for (let i=0; i < person.length; i++){
+        if (person[i].favoriteFruit === 'apple' && person[i].eyeColor === 'blue'){
+            arr.push(person[i])
+                console.log(person[i].name);
+        }
+}
 
-//     if (arr.length > 0) {
-//         console.log(`jumlah orang yang berumur diatas 30 adalah ${arr.length} orang`);
-//     }
+// // 2) print berapa person yang age nya diatas 30
+console.log('------- Jawaban Nomor 2 -------'); 
+    for (let i=0; i < person.length; i++){
+        if (person[i].age > 30){
+            arr.push(person[i])
+        }
+}
 
+    if (arr.length > 0) {
+        console.log(`jumlah orang yang berumur diatas 30 adalah ${arr.length} orang`);
+    }
 
 // 3) print person yang isActive true and  gender nya female 
-// let arr=[]
-//     for (let i=0; i < person.length; i++){
-//         if (person[i].isActive === true && person[i].gender === 'female'){
-//             arr.push(person[i])
-//                 console.log(person[i].name);
-//         }
-// }
+console.log('------- Jawaban Nomor 3 -------');
+    for (let i=0; i < person.length; i++){
+        if (person[i].isActive === true && person[i].gender === 'female'){
+            arr.push(person[i])
+                console.log(person[i].name);
+        }
+}
 
-// 4) print yang age nya diatas 30 atau dibawah 25 dan eyeColor nya blue 
-// let arr=[]
-//     for (let i=0; i < person.length; i++){
-//         if (person[i].age > 30 || person[i].age < 25 ) {
-//             if (person[i].eyeColor === 'blue') {
-//             arr.push(person[i])
-//                 console.log(person[i].name);
-//             }
-//         }
-// }
+// 4) print yang age nya diatas 30 atau dibawah 25 dan eyeColor nya blue
+console.log('------- Jawaban Nomor 4 -------'); 
+    for (let i=0; i < person.length; i++){
+        if (person[i].age > 30 || person[i].age < 25 ) {
+            if (person[i].eyeColor === 'blue') {
+            arr.push(person[i])
+                console.log(person[i].name);
+            }
+        }
+}
 
 // 5) print person yang mengandung huruf W di name nya 
-let arr=[]
+// TO DO : MASIH GA BISA GA KELUAR OUTPUT
+console.log('------- Jawaban Nomor 5 -------');
     for (let i=0; i < person.length; i++){
         if (person[i].name === 'w') {
             arr.push(person[i])
@@ -197,7 +199,53 @@ let arr=[]
 }
 
 // 6) print person isActive false dan gender nya male dan age nya diatas 25 
+console.log('------- Jawaban Nomor 6 -------');
+    for (let i=0; i < person.length; i++){
+        if (person[i].isActive === false && person[i].gender === 'male' ) {
+            if (person[i].age > 25) {
+            arr.push(person[i])
+                console.log(person[i].name);
+            }
+        }
+}
+
 // 7) print person age nya dibawah 30 atau eyeColor brown dan favoritFruit nya banana 
+// TO DO : MASIH SALAH
+console.log('------- Jawaban Nomor 7 -------');
+    for (let i=0; i < person.length; i++){
+        if (person[i].age < 30 ||  person[i].eyeColor === 'brown' ) {
+            if (person[i].favoriteFruit === 'banana') {
+                arr.push(person[i])
+                console.log(person[i].name);
+            }
+        }
+
+}
+
 // 8) print person gender male 
+console.log('------- Jawaban Nomor 8 -------');
+    for (let i=0; i < person.length; i++){
+        if (person[i].gender === 'male'){
+            arr.push(person[i])
+                console.log(person[i].name);
+        }
+}
+
 // 9) print person eyeColor Blue 
+console.log('------- Jawaban Nomor 9 -------');
+    for (let i=0; i < person.length; i++){
+        if (person[i].eyeColor === 'blue'){
+            arr.push(person[i])
+                console.log(person[i].name);
+        }
+}
+
 //  10) print person age diatas 30
+console.log('------- Jawaban Nomor 10 -------');
+
+    for (let i=0; i < person.length; i++){
+        if (person[i].age > 30){
+            arr.push(person[i])
+                console.log(person[i].name);
+        }
+}
