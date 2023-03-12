@@ -192,9 +192,11 @@ console.log('------- Jawaban Nomor 4 -------');
 // TO DO : MASIH GA BISA GA KELUAR OUTPUT
 console.log('------- Jawaban Nomor 5 -------');
     for (let i=0; i < person.length; i++){
-        if (person[i].name === 'w') {
+        if (person[i].name == 'w') {
             arr.push(person[i])
-                console.log(person[i].name);
+            // const str = person;
+            // console.log(str.includes('w', person.name));
+            console.log(person[i].name);
         }
 }
 
@@ -210,7 +212,6 @@ console.log('------- Jawaban Nomor 6 -------');
 }
 
 // 7) print person age nya dibawah 30 atau eyeColor brown dan favoritFruit nya banana 
-// TO DO : MASIH SALAH
 console.log('------- Jawaban Nomor 7 -------');
     for (let i=0; i < person.length; i++){
         if (person[i].age < 30 ||  person[i].eyeColor === 'brown' ) {
