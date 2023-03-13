@@ -189,13 +189,12 @@ console.log('------- Jawaban Nomor 4 -------');
 }
 
 // 5) print person yang mengandung huruf W di name nya 
-// TO DO : MASIH GA BISA GA KELUAR OUTPUT
 console.log('------- Jawaban Nomor 5 -------');
     for (let i=0; i < person.length; i++){
-        if (person[i].name == 'w') {
+        if (person[i].name.charAt(0) === 'W') {
             arr.push(person[i])
             // const str = person;
-            // console.log(str.includes('w', person.name));
+            // console.log(str.includes('W', person.name));
             console.log(person[i].name);
         }
 }
